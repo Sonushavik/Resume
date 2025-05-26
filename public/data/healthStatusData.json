@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Lungs",
+    "status": "Healthy",
+    "date": "2025-05-24",
+    "indicatorColor": "green"
+  },
+  {
+    "id": 2,
+    "name": "Teeth",
+    "status": "Needs Attention",
+    "date": "2025-05-22",
+    "indicatorColor": "orange"
+  },
+  {
+    "id": 3,
+    "name": "Bone",
+    "status": "Fractured",
+    "date": "2025-05-20",
+    "indicatorColor": "red"
+  }
+]
