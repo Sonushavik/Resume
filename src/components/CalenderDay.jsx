@@ -7,10 +7,7 @@ const CalendarDay = ({ day, date, times, doctorSlots }) => {
 			<div className="calenderDate">{date}</div>
 			{times.map((time, index) => {
 				const isDoctorAvailable = doctorSlots.some(
-					(slot) => 
-                                                slot.time === time &&
-                                                 slot.date === date && 
-                                                 slot.day === day
+					(slot) => slot.time === time && slot.date === date && slot.day === day
 				);
 				return (
 					<div

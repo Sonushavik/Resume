@@ -17,13 +17,15 @@ const HealthStatusCards = () => {
 
 	return (
 		<div className="healthStatusCardContainer">
-                        {
-                                data.map((data,index) => {
-                                        return <Cards key={index} data={data} />
-
-                                })
-                        }
-			<p className="detailsBtn">Details<span><FaArrowRightLong/></span></p>
+			{data.map((data, index) => {
+				return <Cards key={index} data={data} />;
+			})}
+			<p className="detailsBtn">
+				Details
+				<span>
+					<FaArrowRightLong />
+				</span>
+			</p>
 		</div>
 	);
 };

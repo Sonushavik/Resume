@@ -23,8 +23,8 @@ const DashboardMainContent = () => {
 					<ActivityFeed />
 				</div>
 				<div className="dbox">
-					<CalenderView/>
-          <UpcomingSchedule/>
+					<CalenderView />
+					<UpcomingSchedule />
 				</div>
 			</div>
 		</div>

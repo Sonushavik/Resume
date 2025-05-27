@@ -1,15 +1,14 @@
-import React from 'react'
-import AnatomySection from './AnatomySection'
-import HealthStatusCards from './HealthStatusCards'
-
+import React from "react";
+import AnatomySection from "./AnatomySection";
+import HealthStatusCards from "./HealthStatusCards";
 
 const DashboardOverview = () => {
-  return (
-    <div className='dashboardOverviewContainer'>
-      <AnatomySection/>
-      <HealthStatusCards/>
-    </div>
-  )
-}
+	return (
+		<div className="dashboardOverviewContainer">
+			<AnatomySection />
+			<HealthStatusCards />
+		</div>
+	);
+};
 
-export default DashboardOverview
+export default DashboardOverview;
