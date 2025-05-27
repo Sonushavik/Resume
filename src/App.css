@@ -584,3 +584,10 @@
   }
 
 }
+
+@media (max-width: 500px){
+    .upcomingScheduleContainer p {
+    font-size:xx-small;
+    font-weight: 500;
+  }
+}
